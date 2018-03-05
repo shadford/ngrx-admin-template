@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,UAAW;EACT,KAAK,EAAE,OAAO",
+"sources": ["nav-item.component.scss"],
+"names": [],
+"file": "nav-item.component.css"
+}

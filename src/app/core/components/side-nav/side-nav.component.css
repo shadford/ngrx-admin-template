@@ -1,0 +1,10 @@
+mat-sidenav.collapsed-menu {
+  margin-top: 64px;
+  width: 50px;
+  text-align: center; }
+
+mat-sidenav.full-menu {
+  margin-top: 64px;
+  width: 300px; }
+
+/*# sourceMappingURL=side-nav.component.css.map */

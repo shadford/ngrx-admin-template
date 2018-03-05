@@ -1,0 +1,49 @@
+.profile-wrapper {
+  text-decoration: none; }
+
+.profile-pic {
+  display: block;
+  width: 50px;
+  height: 50px;
+  float: left;
+  background: url("/assets/images/avatars.png") -75px -5px; }
+
+.johnny-pic {
+  display: block;
+  width: 50px;
+  height: 50px;
+  float: left;
+  background: url("/assets/images/avatars.png") 50px 50px; }
+
+.container {
+  display: flex;
+  width: 200px;
+  height: 50px;
+  flex-wrap: wrap; }
+
+.column {
+  flex: 5;
+  display: flex;
+  flex-direction: column;
+  font-size: 8px; }
+
+.column2 {
+  flex: 1;
+  display: flex;
+  flex-direction: column; }
+
+.button {
+  flex: 1;
+  padding: 2px 4px;
+  color: white;
+  font: bold 11px Arial, serif; }
+
+.image {
+  flex: 1;
+  padding: 2px 4px;
+  width: 50px; }
+
+.image.rowspan {
+  flex: 3; }
+
+/*# sourceMappingURL=user-profile.component.css.map */

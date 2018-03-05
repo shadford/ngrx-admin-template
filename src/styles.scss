@@ -1,0 +1,19 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
+@import url('https://fonts.googleapis.com/css?family=Caveat|Ubuntu|Fascinate+Inline|Dhurjati|Roboto+Condensed|Supermercado+One');
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-font-smoothing: antialiased;
+  -ms-overflow-style: none;
+  overflow: auto;
+}
+
+.mat-progress-spinner svg {
+  width: 30px !important;
+  height: 30px !important;
+}
