@@ -2,19 +2,9 @@
 
   <ngrx-side-nav [open]="showSidenav$ | async" (openMenu)="openSidenav()" (closeMenu)="closeSidenav()">
 
-    <ngrx-nav-item (navigate)="closeSidenav()" *ngIf="loggedIn$ | async" routerLink="/global/projects"
-                   icon="folder_shared" hint="View your projects" [open]="showSidenav$ | async">
-      My Projects
-    </ngrx-nav-item>
-
-    <ngrx-nav-item (navigate)="closeSidenav()" *ngIf="loggedIn$ | async" routerLink="/global"
-                   icon="supervisor_account" hint="View all employees" [open]="showSidenav$ | async">
-      All Employees
-    </ngrx-nav-item>
-
-    <ngrx-nav-item (navigate)="closeSidenav()" *ngIf="loggedIn$ | async" routerLink="/books/find"
-                   icon="search" hint="Find your next project!" [open]="showSidenav$ | async">
-      Search Projects
+    <ngrx-nav-item (navigate)="closeSidenav()" *ngIf="loggedIn$ | async" routerLink="/home"
+                   icon="home" hint="Home Dashboard" [open]="showSidenav$ | async">
+      Home
     </ngrx-nav-item>
 
     <ngrx-nav-item (navigate)="closeSidenav()" *ngIf="!(loggedIn$ | async)" icon="https" [open]="showSidenav$ | async">

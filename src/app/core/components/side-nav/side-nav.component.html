@@ -1,10 +1,6 @@
 <mat-sidenav class="collapsed-menu" [opened]="!open" (mouseenter)="mouseEnter()">
   <mat-nav-list *ngIf="loggedIn$ | async">
-    <mat-icon style="color: #a5a5a5;">folder_shared</mat-icon>
-    <br/>
-    <mat-icon style="color: #a5a5a5;">supervisor_account</mat-icon>
-    <br/>
-    <mat-icon style="color: #a5a5a5;">search</mat-icon>
+    <mat-icon style="color: #a5a5a5;">home</mat-icon>
     <br/>
   </mat-nav-list>
   <mat-nav-list *ngIf="!(loggedIn$ | async)">
